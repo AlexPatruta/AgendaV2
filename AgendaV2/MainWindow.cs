@@ -22,7 +22,9 @@ namespace AgendaV2
         private void MainWindow_Load(object sender, EventArgs e)
         {
             Person p = new Person("Alex", "0745332601", "alex.patruta@gmail.com");
+            Person pe = new Person("Florin");
             persons.Add(p);
+            persons.Add(pe);
 
             dataGridView1.DataSource = persons;
         }

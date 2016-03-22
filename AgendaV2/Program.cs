@@ -18,6 +18,7 @@ namespace AgendaV2
             Application.SetCompatibleTextRenderingDefault(false);
 
             MainWindow mainWindow = new MainWindow();
+            mainWindow.BringToFront();
             Application.Run(mainWindow);
         }
     }
