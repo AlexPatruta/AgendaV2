@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace AgendaV2
 {
@@ -21,12 +22,12 @@ namespace AgendaV2
 
         private void MainWindow_Load(object sender, EventArgs e)
         {
-            Person p = new Person("Alex", "0745332601", "alex.patruta@gmail.com");
-            Person pe = new Person("Florin");
-            persons.Add(p);
-            persons.Add(pe);
-
-            dataGridView1.DataSource = persons;
+            
+        }
+        private XElement LoadData(string xmlDataFile)
+        {
+            XDocument XTree = new XDocument();
+            return XTree;
         }
     }
 }

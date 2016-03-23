@@ -32,9 +32,9 @@
             this.visualizeAgenda = new System.Windows.Forms.GroupBox();
             this.applyFilter = new System.Windows.Forms.Button();
             this.inputFilter = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.displayAgenda = new System.Windows.Forms.DataGridView();
             this.visualizeAgenda.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.displayAgenda)).BeginInit();
             this.SuspendLayout();
             // 
             // indicateFilter
@@ -49,7 +49,7 @@
             // 
             // visualizeAgenda
             // 
-            this.visualizeAgenda.Controls.Add(this.dataGridView1);
+            this.visualizeAgenda.Controls.Add(this.displayAgenda);
             this.visualizeAgenda.Controls.Add(this.applyFilter);
             this.visualizeAgenda.Controls.Add(this.inputFilter);
             this.visualizeAgenda.Controls.Add(this.indicateFilter);
@@ -84,17 +84,17 @@
             this.inputFilter.TabIndex = 1;
             this.inputFilter.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // dataGridView1
+            // displayAgenda
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaption;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 41);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(308, 297);
-            this.dataGridView1.TabIndex = 3;
+            this.displayAgenda.BackgroundColor = System.Drawing.Color.White;
+            this.displayAgenda.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.displayAgenda.GridColor = System.Drawing.SystemColors.ActiveCaption;
+            this.displayAgenda.Location = new System.Drawing.Point(6, 41);
+            this.displayAgenda.Name = "displayAgenda";
+            this.displayAgenda.RowHeadersVisible = false;
+            this.displayAgenda.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.displayAgenda.Size = new System.Drawing.Size(308, 297);
+            this.displayAgenda.TabIndex = 3;
             // 
             // MainWindow
             // 
@@ -110,7 +110,7 @@
             this.Load += new System.EventHandler(this.MainWindow_Load);
             this.visualizeAgenda.ResumeLayout(false);
             this.visualizeAgenda.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.displayAgenda)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -121,7 +121,7 @@
         private System.Windows.Forms.GroupBox visualizeAgenda;
         private System.Windows.Forms.TextBox inputFilter;
         private System.Windows.Forms.Button applyFilter;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView displayAgenda;
     }
 }
 
