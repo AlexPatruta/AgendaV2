@@ -8,6 +8,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace AgendaV2
 {
@@ -47,7 +48,7 @@ namespace AgendaV2
         private static bool isAlphaNumeric(string strToCheck)
         {
             Regex rg = new Regex(@"[\p{L}\p{N}_]");
-            return rg.IsMatch(strToCheck);
+            return rg.IsMatch(strToCheck);  
         }
     }
 }
