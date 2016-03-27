@@ -6,7 +6,6 @@ D:\EBS\AgendaV2\AgendaV2\obj\Debug\AgendaV2.Properties.Resources.resources
 D:\EBS\AgendaV2\AgendaV2\obj\Debug\AgendaV2.csproj.GenerateResource.Cache
 D:\EBS\AgendaV2\AgendaV2\obj\Debug\AgendaV2.exe
 D:\EBS\AgendaV2\AgendaV2\obj\Debug\AgendaV2.pdb
-D:\EBS\AgendaV2\AgendaV2\obj\Debug\AgendaV2.csprojResolveAssemblyReference.cache
 C:\Users\user\Curs EBS\AgendaV2\AgendaV2\bin\Debug\AgendaV2.exe.config
 C:\Users\user\Curs EBS\AgendaV2\AgendaV2\obj\Debug\AgendaV2.exe
 C:\Users\user\Curs EBS\AgendaV2\AgendaV2\obj\Debug\AgendaV2.pdb
@@ -16,3 +15,4 @@ C:\Users\user\Curs EBS\AgendaV2\AgendaV2\obj\Debug\AgendaV2.csprojResolveAssembl
 C:\Users\user\Curs EBS\AgendaV2\AgendaV2\obj\Debug\AgendaV2.MainWindow.resources
 C:\Users\user\Curs EBS\AgendaV2\AgendaV2\obj\Debug\AgendaV2.Properties.Resources.resources
 C:\Users\user\Curs EBS\AgendaV2\AgendaV2\obj\Debug\AgendaV2.csproj.GenerateResource.Cache
+D:\EBS\AgendaV2\AgendaV2\obj\Debug\AgendaV2.csprojResolveAssemblyReference.cache

@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -21,12 +22,32 @@ namespace AgendaV2
 
         private void MainWindow_Load(object sender, EventArgs e)
         {
-            Person p = new Person("Alex", "0745332601", "alex.patruta@gmail.com");
-            Person pe = new Person("Florin");
-            persons.Add(p);
-            persons.Add(pe);
+            
+        }
 
-            dataGridView1.DataSource = persons;
+        private void nameInput_Leave(object sender, EventArgs e)
+        {
+            if (!isValid(nameInput.Text.ToString().ToLower()))
+            {
+                nameErrorDisplay.ForeColor = Color.Red;
+                nameErrorDisplay.Text = "Please input a valid name.";
+            }
+            else
+            {
+                nameErrorDisplay.ForeColor = Color.Green;
+                nameErrorDisplay.Text = "OK";
+            }
+        }
+
+        private static bool isValid(string nameInput)
+        {
+            return (nameInput != "" && isAlphaNumeric(nameInput)) ? true : false;
+        }
+
+        private static bool isAlphaNumeric(string strToCheck)
+        {
+            Regex rg = new Regex(@"[\p{L}\p{N}_]");
+            return rg.IsMatch(strToCheck);
         }
     }
 }
